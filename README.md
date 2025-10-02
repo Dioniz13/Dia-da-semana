@@ -18,6 +18,7 @@ git clone https://github.com/seu-usuario/verificador-dia-semana.git
 2.  Abra o arquivo index.html no seu navegador
 
 Ou execute diretamente criando um arquivo HTML:
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -38,8 +39,9 @@ Ou execute diretamente criando um arquivo HTML:
     </script>
 </body>
 </html>
-
-💻 Código
+```
+####💻 Código
+```
 let diaDaSemana = prompt('Qual o dia da semana?');
 if (diaDaSemana == 'domingo' || diaDaSemana == 'sábado') {
     alert(`Hoje é ${diaDaSemana}. Bom fim de semana!`);
@@ -50,8 +52,8 @@ else if (diaDaSemana == 'segunda' || diaDaSemana == 'terça' || diaDaSemana == '
 else {
     alert('Dia inválido!');
 }
-
-🎯 Exemplos de Funcionamento
+```
+#####🎯 Exemplos de Funcionamento
 Entrada: "segunda" → Saída: "Hoje é segunda. Boa semana!"
 
 Entrada: "sábado" → Saída: "Hoje é sábado. Bom fim de semana!"
@@ -62,26 +64,26 @@ Entrada: "quarta" → Saída: "Hoje é quarta. Boa semana!"
 
 Entrada: "invalidoday" → Saída: "Dia inválido!"
 
-📋 Dias Válidos
+######📋 Dias Válidos
 Dias úteis: segunda, terça, quarta, quinta, sexta
 
 Fim de semana: sábado, domingo
 
-🛠️ Tecnologias Utilizadas
+#######🛠️ Tecnologias Utilizadas
 HTML5
 
 JavaScript Vanilla
 
 Prompt e Alert do navegador
 
-📁 Estrutura do Projeto
+########📁 Estrutura do Projeto
 verificador-dia-semana/
 │
 ├── index.html          # Arquivo principal
 ├── script.js           # Arquivo JavaScript 
 └── README.md           # Documentação
 
-🤝 Contribuindo
+#########🤝 Contribuindo
 Contribuições são bem-vindas! Para contribuir:
 
 Faça um Fork do projeto
@@ -94,7 +96,7 @@ Push para a Branch (git push origin feature/AmazingFeature)
 
 Abra um Pull Request
 
-📄 Licença
+##########📄 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
 ⭐ Se este projeto foi útil, deixe uma estrela no repositório!
