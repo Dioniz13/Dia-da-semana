@@ -12,9 +12,9 @@ Um programa simples em JavaScript que pergunta ao usuário o dia da semana e ret
 ## 🚀 Como Usar
 
 1. Clone o repositório:
-
+```bash
 git clone https://github.com/seu-usuario/verificador-dia-semana.git
-
+```
 2.  Abra o arquivo index.html no seu navegador
 
 Ou execute diretamente criando um arquivo HTML:
